@@ -5,16 +5,23 @@
   path: om-oss.html
   section_id: om-oss
 - name: Tjänster
-  path: tjanster.html
   section_id: tjanster
-- name: Projekt
-  path: projekt.html
-  section_id: projekt
   children:
-    - name: Våra Projekt
-      path: projekt.html
-    - name: Projekt 1
-      path: projekt-1.html
+    - name: Rådgivning
+      path: radgivning.html
+    - name: Skötsel
+      path: skotsel.html
+    - name: Design
+      path: design.html
+
+# - name: Projekt
+#   path: projekt.html
+#   section_id: projekt
+#   children:
+#     - name: Våra Projekt
+#       path: projekt.html
+#     - name: Projekt 1
+#       path: projekt-1.html
 - name: Kontakt
   path: kontakt.html
   section_id: contact
