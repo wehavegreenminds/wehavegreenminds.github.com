@@ -1,22 +1,22 @@
-- name: Home
+- name: Hem
   path: index.html
-  section_id: home
-- name: About
-  path: about.html
-  section_id: about
-- name: Services
-  path: services.html
-  section_id: services
-- name: Portfolio
-  path: portfolio.html
-  section_id: portfolio
+  section_id: hem
+- name: Om Oss
+  path: om-oss.html
+  section_id: om-oss
+- name: Tjänster
+  path: tjanster.html
+  section_id: tjanster
+- name: Projekt
+  path: projekt.html
+  section_id: projekt
   children:
-    - name: Portfolio
-      path: portfolio.html
-    - name: Portfolio item
-      path: portfolio-item.html
-- name: Contact
-  path: contact.html
+    - name: Våra Projekt
+      path: projekt.html
+    - name: Projekt 1
+      path: projekt-1.html
+- name: Kontakt
+  path: kontakt.html
   section_id: contact
 - name: Blog
   path: blog/
