@@ -1,9 +1,6 @@
 - name: Hem
   path: index.html
   section_id: hem
-- name: Om Oss
-  path: om-oss.html
-  section_id: om-oss
 - name: Tjänster
   section_id: tjanster
   children:
@@ -13,6 +10,8 @@
       path: skotsel.html
     - name: Design
       path: design.html
+    - name: Styling
+      path: styling.html
 
 # - name: Projekt
 #   path: projekt.html
@@ -25,6 +24,9 @@
 - name: Kontakt
   path: kontakt.html
   section_id: contact
-- name: Blog
-  path: blog/
-  section_id: blog
+- name: Om Oss
+  path: om-oss.html
+  section_id: om-oss
+#- name: Blog
+#  path: blog/
+#  section_id: blog
