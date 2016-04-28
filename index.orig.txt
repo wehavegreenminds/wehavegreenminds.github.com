@@ -12,6 +12,11 @@ slides:
       text: Kunskap om växter
       animation: bottom-to-top
       class: large-7 large-offset-5 medium-9 medium-offset-3
+  - bg: images/blad.jpg
+    title:
+      text: Känsla för detaljer
+      animation: bottom-to-top
+      class: large-8 medium-11
 
 clients:
   - images/gul-vallmo.jpg
@@ -130,7 +135,7 @@ clients:
 <div class='full'>
   <div class='row'>
     <div class='medium-6 columns'>
-      <img class="fadeinleft" width="500" height="340" alt="" src="images/spade.jpg" />
+      <img class="fadeinleft" width="500" height="340" alt="" src="images/stubbe.jpg" />
     </div>
     <div class='medium-6 columns'>
       <div class='spacing'></div>
@@ -148,7 +153,7 @@ clients:
   <div class='four spacing'></div>
   <div class='row'>
     <div class='medium-6 columns'>
-      <img class="fadeinleft" width="500" height="340" alt="" src="images/stubbe.jpg" />
+      <img class="fadeinleft" width="500" height="340" alt="" src="images/spade.jpg" />
     </div>
     <div class='medium-6 columns'>
       <div class='two spacing'></div>

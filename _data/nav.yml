@@ -1,8 +1,6 @@
 - name: Hem
   path: index.html
-  section_id: hem
 - name: Tjänster
-  section_id: tjanster
   children:
     - name: Rådgivning
       path: radgivning.html
@@ -12,21 +10,12 @@
       path: design.html
     - name: Styling
       path: styling.html
-
-# - name: Projekt
-#   path: projekt.html
-#   section_id: projekt
-#   children:
-#     - name: Våra Projekt
-#       path: projekt.html
-#     - name: Projekt 1
-#       path: projekt-1.html
+- name: Priser
+  path: priser.html
 - name: Kontakt
   path: kontakt.html
-  section_id: contact
 - name: Om Oss
   path: om-oss.html
-  section_id: om-oss
 #- name: Blog
 #  path: blog/
 #  section_id: blog
