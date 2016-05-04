@@ -14,8 +14,8 @@
   path: priser.html
 - name: Kontakt
   path: kontakt.html
-- name: Om Oss
-  path: om-oss.html
+- name: Om Företaget
+  path: om-foretaget.html
 #- name: Blog
 #  path: blog/
 #  section_id: blog
