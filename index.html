@@ -1,6 +1,17 @@
 ---
 layout: default
 section_id: home
+clients:
+  - images/gul-vallmo.jpg
+  - images/bla-vallmo.jpg
+  - images/gul-vallmo.jpg
+  - images/bla-vallmo.jpg
+  - images/gul-vallmo.jpg
+  - images/bla-vallmo.jpg
+testimonials:
+  - text: "Tack Sara för att du redde ut mina växtbekymmer, gav mig inspiration, handfasta tips och en plan för hur mitt grustag kan bli en prunkande trädgård—kanske redan nästa år!"
+    author: Maria Malmberg
+    position: Halkved Långlöt
 ---
 
 <img src="images/cropped-images/ormbunkar.png">
@@ -72,7 +83,7 @@ section_id: home
   <div class='row'>
     <div class='large-12 columns'>
 <!--       <h4 style='color: #999'>Om oss</h4> -->
-      <h2>Välkommen till Green Minds</h2>
+      <h2>Välkommen till Green Minds trädgårdsmästeri</h2>
       <div class='spacing'></div>
       <p>
       Nyfikenhet, glädje och passion för växter och gestaltning genomsyrar verksamheten hos Green Minds. Drivkraften är mötet med kunder och deras trädgårdar.
@@ -81,11 +92,42 @@ section_id: home
       Att lyssna till kundens behov och önskemål, samt se till platsens förutsättningar är ett självklart utgångsläge när jag med växtkunskap och design-idéer tar mig an din trädgård då den till exempel behöver förändring eller underhåll av något slag.
       </p>
       <p>
-      Verksamheten riktas till alla som har behov av skötsel, konsultation eller ritning och planering av sin trädgård eller utemiljö.
+      Verksamheten ligger i Uppsala och riktas till alla som har behov av skötsel, konsultation eller ritning och planering av sin trädgård eller utemiljö.
       </p>
     </div>
   </div>
-  <div class='three spacing'></div>
+  <!--div class='three spacing'></div-->
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
+      </p>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modTestimonials'>
+        <div class='row'>
+          <div class='small-12 columns'>
+            <div class='items centered-text'>
+              {% for t in page.testimonials  %}
+                <div class='item'>
+                  <p class='quote'>{{t.text}}</p>
+                  <p class='author'>- {{t.author}}, {{t.position}}</p>
+                  <div class='two spacing'></div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--div class='four spacing'></div-->
 </div>
 
 <!-- <div class='full' style='background: #f5f5f5'>
@@ -247,37 +289,6 @@ section_id: home
     </div>
   </div>
   <div class='spacing'></div>
-</div>
- -->
-<!-- <div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
-      </p>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='mod modTestimonials'>
-        <div class='row'>
-          <div class='small-12 columns'>
-            <div class='items centered-text'>
-              {% for t in page.testimonials  %}
-                <div class='item'>
-                  <p class='quote'>{{t.text}}</p>
-                  <p class='author'>- {{t.author}}, {{t.position}}</p>
-                  <div class='two spacing'></div>
-                </div>
-              {% endfor %}
-            </div>
-          </div>
-          <div class='spacing'></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class='four spacing'></div>
 </div>
  -->
 
