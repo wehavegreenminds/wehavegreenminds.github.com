@@ -6,6 +6,8 @@
       path: radgivning.html
     - name: Skötsel
       path: skotsel.html
+    - name: Beskärning
+      path: beskarning.html
     - name: Design
       path: design.html
     - name: Styling
