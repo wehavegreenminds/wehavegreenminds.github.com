@@ -12,6 +12,8 @@
       path: design.html
     - name: Styling
       path: styling.html
+- name: Projekt
+  path: projekt.html
 - name: Priser
   path: priser.html
 - name: Kontakt
