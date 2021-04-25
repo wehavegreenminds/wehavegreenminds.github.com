@@ -12,8 +12,6 @@
       path: design.html
     - name: Styling
       path: styling.html
-- name: Recensioner
-  path: https://www.google.com/search?q=Green+Minds+Tr%C3%A4dg%C3%A5rdsdesign&client=safari&rls=en&ei=oqiFYI3HH6ji5NoPw9mowAY&oq=Green+Minds+Tr%C3%A4dg%C3%A5rdsdesign&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANQrnJYrnJg_nNoA3ACeACAAX6IAX6SAQMwLjGYAQCgAQKgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=gws-wiz&ved=0ahUKEwiNoKfD95nwAhUoMVkFHcMsCmgQ4dUDCA0&uact=5#lrd=0x465fc990d378ed67:0xdd22301a3007824,1,,,
 - name: Projekt
   path: projekt.html
 - name: Priser
